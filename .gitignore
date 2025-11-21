@@ -1,11 +1,65 @@
 ```
+# Dependencies
 node_modules/
-dist/
-build/
-*.log
-*.tmp
+
+# Environment
 .env
 .env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Editor/IDE
 .vscode/
 .idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+jspm_packages/
+web_modules/
+*.min.js
+*.min.css
+
+# Hexo
+public/
+.deploy*/
 ```
